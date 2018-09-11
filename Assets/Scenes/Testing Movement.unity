@@ -1591,7 +1591,7 @@ GameObject:
   - component: {fileID: 259028993}
   - component: {fileID: 259028992}
   - component: {fileID: 259028991}
-  - component: {fileID: 259028990}
+  - component: {fileID: 259028989}
   m_Layer: 8
   m_Name: Character
   m_TagString: Player
@@ -1599,7 +1599,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &259028990
+--- !u!114 &259028989
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1607,11 +1607,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 259028988}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e9c9beb06469284f91d9b640a1857e4, type: 3}
+  m_Script: {fileID: 11500000, guid: a6913682696c6f9488a48398fa247e16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gravityModifier: 1
   minGroundNormalY: 0.65
+  maxSpeed: 7
+  jumpTakeOffSpeed: 7
 --- !u!58 &259028991
 CircleCollider2D:
   m_ObjectHideFlags: 0
